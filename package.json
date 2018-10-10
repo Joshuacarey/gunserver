@@ -1,5 +1,5 @@
 {
-  "name": "crmserver",
+  "name": "pineconeserver",
   "version": "1.0.0",
   "description": "Super peer",
   "main": "server.js",
