@@ -1,5 +1,5 @@
 {
-  "name": "GunServer",
+  "name": "gunserver",
   "version": "1.0.0",
   "description": "Super peer",
   "main": "server.js",
