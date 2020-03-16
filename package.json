@@ -1,5 +1,5 @@
 {
-  "name": "pineconeserver",
+  "name": "GunServer",
   "version": "1.0.0",
   "description": "Super peer",
   "main": "server.js",
@@ -9,11 +9,11 @@
   "author": "Mario Martin",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^1.18.3"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "express-http-proxy": "^1.6.0",
-    "gun": "^0.2020.301"
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.2.0",
+    "gun": "^0.9.9998"
   }
 }
