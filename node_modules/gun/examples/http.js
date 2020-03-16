@@ -1,7 +1,7 @@
 ;(function(){
 	var cluster = require('cluster');
 	if(cluster.isMaster){
-	  return cluster.fork() && cluster.on('exit', function(){ cluster.fork() });
+	  return cluster.fork() && cluster.on('exit', function(){ cluster.fork(); require('../lib/crashed'); });
 	}
 
 	var fs = require('fs');
@@ -16,6 +16,8 @@
 		config.server = require('http').createServer(Gun.serve(__dirname));
 	}
 
-	var gun = Gun({web: config.server.listen(config.port) });
+	var gun = Gun({web: config.server.listen(config.port)});
 	console.log('Relay peer started on port ' + config.port + ' with /gun');
+
+	module.exports = gun;
 }());

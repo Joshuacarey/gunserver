@@ -6,8 +6,11 @@
 # Copy paste and run each line into your terminal.
 # If you are on Windows, http://nodejs.org/download/ has
 # an installer that will automatically do it for you.
+# curl -o- https://raw.githubusercontent.com/amark/gun/master/examples/install.sh | bash
 
 #debian/ubuntu
+su -
+apt-get install sudo -y
 sudo apt-get update -y
 sudo apt-get install curl git git-core -y
 #fedora/openSUSE
