@@ -9,11 +9,11 @@
   "author": "Mario Martin",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.18.3"
+    "nodemon": "^2.0.2"
   },
   "dependencies": {
-    "express": "^4.16.3",
-    "express-http-proxy": "^1.2.0",
-    "gun": "^0.9.9998"
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "gun": "^0.2020.301"
   }
 }
